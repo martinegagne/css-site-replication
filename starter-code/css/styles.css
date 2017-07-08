@@ -6,51 +6,67 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
   background: url("/Users/martinegagne/Desktop/bitmaker/projects/css-site-replication/starter-code/images/bgtile.png");
   background-repeat: repeat-x;
 }
 
 .insta-page{
-  padding: 200px;
-  margin: 100px;
-  display: inline-block;
+  clear: both;
+  margin: 60px;
+  padding top: 20px;
 }
+
 h2 {
-  color: #06365f;
+  color: #06365F;
   margin-top: 0px;
   font-size: 30px;
-  /*margin: 0;*/
+  padding-left: 30px;
+}
+
+p {
+  padding-left:30px
 }
 
 .main {
-  width: 400px
+  width: 400px;
+  float: right;
+  text-align: left;
+  display: inline-table;
 }
 
 .text-content {
-  float: left;
+  float: right;
   background-image: url("/Users/martinegagne/Desktop/bitmaker/projects/css-site-replication/starter-code/images/frame.png");
   background-repeat: no-repeat;
-  background-image width: 300px;
+  background-image width: 400px;
   font-size: 20px;
   width: 505px;
-  padding: 40px;
+  padding: 40px 0;
+}
+
+.text-content img {
+  padding top: 20px;
 }
 
 .footer {
   text-transform: uppercase;
   text-align: center;
-  margin: 70px;
+  margin-top: 70px;
   font-size: 15px;
-  margin: 10px;
+  padding: 20px;
+  padding-top: 100;
+  text-decoration: none;
+}
+
+ul{
+  padding-top: 100px;
 }
 
 .footer li {
   display: inline;
   color: #FFFF;
-  text-transform: bold;
 }
 
-.footer a {
+/*.footer a {
   text-decoration: none
-}
+}*/
